@@ -1,0 +1,51 @@
+{
+  "id": "1710040",
+  "name": "收银台",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9695719",
+      "name": "选中",
+      "font_class": "gou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6133627",
+      "name": "微信支付",
+      "font_class": "weixinzhifu",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "11844364",
+      "name": "线下转账",
+      "font_class": "xianxiazhuanzhang",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "12971453",
+      "name": "三角指向",
+      "font_class": "sanjiaozhixiang",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13649336",
+      "name": "订单提交成功",
+      "font_class": "dingdantijiao",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "553751",
+      "name": "时间",
+      "font_class": "nz",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    }
+  ]
+}

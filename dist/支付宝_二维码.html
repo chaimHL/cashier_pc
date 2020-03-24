@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="iconfont/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="css/build.min.css"/>
+	</head>
+	<body>
+		<div class="cashier-page">
+			<div class="top-banner">
+				<div class="cashier-container flex-box">
+					<div class="iconbox"><i class="iconfont icon-dingdantijiao"></i></div>
+					<div class="title">订单提交成功！</div>
+					<div class="countdown flex-box">
+						<i class="iconfont icon-nz"></i>
+						<span>支付倒计时：<time id="timer">03:00:00</time></span>
+					</div>
+					<div class="explain">请及时支付，否则订单将会自动取消</div>
+				</div>
+			</div>
+			<div class="cashier-container cashier-box show-in-bottom-middle">
+				<div class="left">
+					<img src="./img/bg_left.jpg" alt="">
+					<div class="block-title">订单信息</div>
+					<div class="left-item">
+						<div class="item_name">订单名称</div>
+						<div class="item_value">日本（机场）酒店招聘</div>
+					</div>
+					<div class="left-item">
+						<div class="item_name">订单价格</div>
+						<div class="item_value">9999.00</div>
+					</div>
+					<div class="left-item">
+						<div class="item_name">客户姓名</div>
+						<div class="item_value">章北海</div>
+					</div>
+					<div class="left-item">
+						<div class="item_name">客户性别</div>
+						<div class="item_value">男</div>
+					</div>
+					<div class="left-item">
+						<div class="item_name">出生年月</div>
+						<div class="item_value">1976年12月24日</div>
+					</div>
+					<div class="left-item">
+						<div class="item_name">联系电话</div>
+						<div class="item_value">15912341234</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="block-title">选择付款方式</div>
+					<div class="row-pay">
+						<div class="item alipay">
+							<img src="./img/alipay.svg" >
+						</div>
+						<div class="item wechatpay active">
+							<div>
+								<i class="iconfont icon-weixinzhifu"></i>
+								<span>微信支付</span>
+							</div>
+						</div>
+					</div>
+					<div class="details-pay triangle_left" id="alipay-detail">
+						<div class="text">您可以通过支付宝转账方式支付本订单，支付宝收款账户如下</div>
+						<div class="box">
+							<div class="box_top">
+								请务必在<span>支付宝转账详细备注：学生姓名</span>
+							</div>
+							<div class="box_bottom">
+								<div class="detail-qr">
+									<img src="./img/qr.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="text">当您转账成功后，请截图“转账凭证”发送给客服确认到账情况</div>
+					</div>
+					<div class="row-pay">
+						<div class="item unionpay">
+							<img src="./img/unionpay.svg" >
+						</div>
+						<div class="item transferpay">
+							<div>
+								<i class="iconfont icon-xianxiazhuanzhang"></i>
+								<span>转账汇款</span>
+							</div>
+						</div>
+					</div>
+					<div class="details-pay triangle_right" id="transferpay-detail">
+						<div class="text">您可以通过转账汇款方式支付本订单，收款账户如下</div>
+						<div class="box">
+							<div class="box_top">
+								汇款附言<span>请务必备注客户姓名和电话</span>
+							</div>
+							<div class="box_bottom">
+								<div class="detail-text">
+									银行账户：漂洋过海（厦门）科技股份有限公司<br>									银行账号：410473899790<br>									开户银行：中国银行股份有限公司厦门分行
+								</div>
+							</div>
+						</div>
+						<div class="text">转账成功后，请截图“转账凭证”发送给客服确认到账情况</div>
+					</div>
+					<div class="total-sum-box mt_100">
+						<div class="total-sum">
+							<span>支付总额：</span>
+							<b>9999.00</b>
+							<span class="unit">元</span>
+						</div>
+						<div class="button" id="button_pay">立即支付</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>')</script>
+		<script type="text/javascript" src="./js/build.js"></script>
+
+	</body>
+</html>

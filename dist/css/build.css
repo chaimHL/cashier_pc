@@ -294,7 +294,7 @@ input:-webkit-autofill {
 .cashier-page .cashier-box .left {
   background-color: #f6f7f9;
   width: 420px;
-  padding: 50px 10px 50px 60px;
+  padding: 50px 20px 50px 60px;
 }
 .cashier-page .cashier-box .left img {
   position: absolute;
@@ -310,14 +310,24 @@ input:-webkit-autofill {
 }
 .cashier-page .cashier-box .left .left-item .item_name {
   color: #666666;
-  margin-right: 40px;
+  margin-right: 30px;
   flex-shrink: 0;
+  width: 80px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 .cashier-page .cashier-box .left .left-item .item_value {
   color: #333333;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 1.5;
 }
 .cashier-page .cashier-box .right {
   padding: 50px 60px;

@@ -255,6 +255,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background-color: #FFFFFF;
 }
 .cashier-page .cashier-box .right .details-pay .box .box_bottom .detail-text {
   font-size: 17px;
